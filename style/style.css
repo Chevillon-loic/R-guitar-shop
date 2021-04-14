@@ -1,0 +1,521 @@
+body, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+/** Navbar **/
+.mainNavbar {
+  position: fixed;
+  margin-bottom: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  background-color: #f2f2f2;
+  z-index: 100;
+}
+
+.mainNavbar .logo {
+  height: 55px;
+  margin: 5px 20px;
+}
+
+.mainNavbar .linksContainer {
+  float: right;
+  height: 70px;
+  list-style: none;
+  margin: 0px 20px;
+  padding-left: 20px;
+}
+
+.mainNavbar .linksContainer li {
+  display: inline-block;
+  margin-right: 30px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.mainNavbar .linksContainer li #buttonBoutique {
+  color: #b1494A;
+  border: solid 1px #b1494A;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mainNavbar .linksContainer li a {
+  text-decoration: none;
+  color: #444444;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.mainNavbar::after {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 100%;
+  background-color: #b1494A;
+  position: relative;
+  bottom: 12px;
+}
+
+/* header */
+header {
+  background-image: url("../images/bakground.jpg");
+  background-size: 100%;
+  position: relative;
+  height: 135vh;
+  margin-bottom: 5%;
+}
+
+header .contentHeader {
+  color: white;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  letter-spacing: 8px;
+  display: inline;
+  position: absolute;
+  left: 40%;
+  top: 533px;
+  font-weight: 700;
+}
+
+header .contentHeader #contentHeader2 {
+  position: absolute;
+  right: -230px;
+  margin-top: 34px;
+}
+
+#contentHeader2::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 376px;
+  background-color: white;
+  position: relative;
+  bottom: 9px;
+  right: 15px;
+}
+
+/** esprit **/
+#esprit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#esprit .blockTop {
+  height: 100px;
+  width: 100%;
+  background-color: #b1494A;
+  margin-bottom: 3%;
+}
+
+#esprit .blockTop #titleEsprit {
+  color: white;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 10px;
+  position: relative;
+  top: 18px;
+  left: 40px;
+  display: inline-block;
+}
+
+#esprit #textEspritLeft {
+  height: 750px;
+  width: 48%;
+  padding-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 50px;
+  margin-right: 0px;
+}
+
+#esprit #textEspritLeft .titleEspritLeft {
+  color: #444444;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+#esprit #textEspritLeft .textEsprit {
+  line-height: 35px;
+  text-align: justify;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  margin-bottom: 6%;
+}
+
+#esprit #textEspritLeft .titleEspritRight {
+  color: #444444;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#esprit #imageEspritRight {
+  height: 750px;
+  width: 44%;
+  margin-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  top: 25px;
+}
+
+#esprit #imageEspritRight .photoGuitariste1 {
+  height: 470px;
+  width: 330px;
+  margin-right: 15px;
+}
+
+#esprit #imageEspritRight .photoGuitariste2 {
+  height: 470px;
+  width: 280px;
+}
+
+#esprit #imageEspritRight .photoGuitariste3 {
+  height: 250px;
+  width: 99%;
+}
+
+.hoverEsprit1::after {
+  content: "";
+  display: inline-block;
+  height: 7px;
+  width: 341px;
+  background-color: #b1494A;
+  position: relative;
+  bottom: 3px;
+  left: 12px;
+}
+
+.hoverEsprit2::before {
+  content: "";
+  display: inline-block;
+  height: 7px;
+  width: 385px;
+  background-color: #b1494A;
+  position: relative;
+  top: 8px;
+  right: 10px;
+}
+
+.hoverEsprit3::after {
+  content: "";
+  display: inline-block;
+  height: 7px;
+  width: 401px;
+  background-color: #b1494A;
+  position: relative;
+  bottom: 3px;
+  left: 12px;
+}
+
+/** Grattes **/
+#grattes p {
+  color: #444444;
+}
+
+#grattes {
+  margin-bottom: 5%;
+}
+
+#grattes .blockTop {
+  height: 100px;
+  width: 100%;
+  background-color: #b1494A;
+  margin-bottom: 3%;
+}
+
+#grattes .blockTop #titleGrattes {
+  color: white;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 10px;
+  position: relative;
+  top: 34px;
+  right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#grattes .textGrattes {
+  width: 100%;
+  text-align: center;
+}
+
+#grattes .textGrattes .titleGrattesTop {
+  color: #444444;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 20px;
+  position: relative;
+  right: 150px;
+}
+
+#grattes .textGrattes .textGrattesPresentation {
+  width: 50%;
+  display: inline-block;
+  line-height: 35px;
+  text-align: justify;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+#grattes .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #222121;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#grattes .cards .cardsGrattes {
+  height: 400px;
+  width: 300px;
+}
+
+#grattes .cards .cardsGrattes .alignImage {
+  text-align: center;
+}
+
+#grattes .cards .cardsGrattes .cardBody {
+  text-align: center;
+}
+
+#grattes .cards .cardsGrattes .cardBody .nameGratte {
+  margin-bottom: 20px;
+}
+
+#grattes .cards .cardsGrattes .cardBody .nameGratte p {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#grattes .cards .cardsGrattes .cardBody .styleButton {
+  background-color: #b1494A;
+  color: white;
+  height: 30px;
+  width: 120px;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+#grattes .cards .priceGratte {
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+#grattes .cards .priceGratte .lineThrough {
+  text-decoration: line-through;
+  margin-right: 30px;
+}
+
+#grattes .cards #sizeGratte {
+  height: 270px;
+  width: 220x;
+  text-align: center;
+}
+
+.titleGrattesTop::after {
+  content: "";
+  display: inline-block;
+  height: 7px;
+  width: 19%;
+  background-color: #b1494A;
+  position: absolute;
+  bottom: 7px;
+  left: 61%;
+}
+
+/** CONTACT **/
+#contact {
+  margin-bottom: 100px;
+}
+
+#contact .blockTop {
+  height: 100px;
+  width: 100%;
+  background-color: #b1494A;
+  margin-bottom: 3%;
+}
+
+#contact .blockTop .titleContact {
+  color: white;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 10px;
+  position: relative;
+  top: 18px;
+  left: 40px;
+  display: inline-block;
+}
+
+#contact .titleContactTop {
+  color: #444444;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: end;
+  margin-top: 50px;
+  position: relative;
+  right: 36%;
+}
+
+#contact .formContact {
+  margin-left: 19em;
+  margin-top: 7%;
+  color: #444444;
+}
+
+#contact .formContact .formName, #contact .formContact .formMail, #contact .formContact .formPhone, #contact .formContact .formText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact .formContact .formName label, #contact .formContact .formMail label, #contact .formContact .formPhone label, #contact .formContact .formText label {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+#contact .formContact .formName .formStyle, #contact .formContact .formMail .formStyle, #contact .formContact .formPhone .formStyle, #contact .formContact .formText .formStyle {
+  height: 35px;
+  width: 372px;
+  border-style: none;
+  border: 2px #b1494A solid;
+  border-radius: 5px;
+}
+
+#contact .formContact .formName .formStyleMessage, #contact .formContact .formMail .formStyleMessage, #contact .formContact .formPhone .formStyleMessage, #contact .formContact .formText .formStyleMessage {
+  height: 240px;
+  width: 793px;
+  border-style: none;
+  border: 2px #b1494A solid;
+  border-radius: 5px;
+}
+
+#contact .formContact .formName input, #contact .formContact .formMail input, #contact .formContact .formPhone input, #contact .formContact .formText input {
+  margin-bottom: 30px;
+}
+
+#contact .formContact .button {
+  position: absolute;
+  left: 40em;
+  margin-top: 3%;
+}
+
+#contact .formContact .button .buttonForm {
+  background-color: #b1494A;
+  color: white;
+  height: 30px;
+  width: 120px;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+#contact .formContact .formCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact .formContact .formCenter .formMail {
+  margin-right: 38px;
+}
+
+.cardsGrattes:hover {
+  border: #444444 solid 1px;
+  border-radius: 5px;
+}
+
+.titleContactTop::before {
+  content: "";
+  display: inline-block;
+  height: 7px;
+  width: 232px;
+  background-color: #b1494A;
+  position: absolute;
+  top: 34%;
+  left: 65%;
+}
+
+#textarea::-webkit-input-placeholder {
+  line-height: 30px;
+  text-align: left;
+  margin-right: 200px;
+}
+
+#textarea:-ms-input-placeholder {
+  line-height: 30px;
+  text-align: left;
+  margin-right: 200px;
+}
+
+#textarea::-ms-input-placeholder {
+  line-height: 30px;
+  text-align: left;
+  margin-right: 200px;
+}
+
+#textarea::placeholder {
+  line-height: 30px;
+  text-align: left;
+  margin-right: 200px;
+}
+/*# sourceMappingURL=style.css.map */
